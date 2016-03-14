@@ -1,0 +1,189 @@
+
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    list-style-type: none;
+  }
+  main{
+    width:90%;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  section{
+    position: relative;
+    float: left;
+    width: 30%;
+    min-width: 300px;
+    box-sizing: border-box;
+    margin-right: 5%;
+  }
+  .col_three{
+    margin-right: 0%;
+  }
+  article{
+    border: 3px solid #56b6ce;
+  }
+
+  .tShirt{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+  }
+  nav{
+    height:40px;
+    border-top: 3px solid #56b6ce;
+  }
+  .iconList > li{
+    float: left;
+    position: relative;
+    width: 20%;
+    border-right: 3px solid #56b6ce;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5px;
+    color: #56b6ce;
+  }
+  .iconList > li:hover{
+    background-color: #56b6ce;
+    color: white;
+  }
+  nav .cart{
+    border-right: 0px;
+  }
+  #square1{
+    color: #68b0e1;
+  }
+  #square2{
+    color: #e36ea5;
+  }
+  #square3{
+    color: #e1ae76;
+  }
+  .sizingHoverbox{
+    transition: all 1s;
+    opacity: 0;
+    position: absolute;
+    bottom: 130%;
+    left: -15%;
+    height: 200px;
+    width: 130%;
+    border: 3px solid #56b6ce;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 7px;
+    padding-top: 7px;
+  }
+  .triangle1{
+    position: absolute;
+    top:97.5%;
+    left:41%;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+    border-right: 3px solid #56b6ce;
+    border-bottom: 3px solid #56b6ce;
+  }
+  .sizingList > li{
+    text-align: center;
+    font-size: 30px;
+    padding: 4px;
+    color: #56b6ce;
+    font-family: "Century Gothic", sans-serif;
+  }
+  .sizingList > li:hover{
+    background-color: #56b6ce;
+    color: white;
+  }
+  .sizingHover:hover > .sizingHoverbox{
+    opacity: 1;
+    bottom: 100%;
+    left: -15%;
+  }
+  .flipBox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 3px solid #56b6ce;
+    border-bottom: 3px solid #56b6ce;
+    height: 9%;
+    width: 9%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 1%;
+  }
+  .fa-repeat{
+    color: #56b6ce;
+    padding: 3px;
+    box-sizing: border-box;
+  }
+  .flipBox:hover{
+    background-color: #56b6ce;
+  }
+  .fa-repeat:hover{
+    color: white;
+  }
+  .swatchesColorBox{
+    transition: all 1s;
+    opacity: 0;
+    position: absolute;
+    bottom: 130%;
+    left: -15%;
+    height: 85px;
+    width: 130%;
+    border: 3px solid #56b6ce;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+  }
+  .squareHover:hover > .swatchesColorBox{
+    opacity: 1;
+    bottom: 100%;
+    left: -15%;
+  }
+  .colorList #blueSquare{
+    color: #56b6ce;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  .colorList #pinkSquare{
+    color: #e36ea5;
+  }
+  .colorList #yellowSquare{
+    color: #e1ae76;
+    padding-right: 5px;
+  }
+  .colorList #greenSquare{
+    color: #7bc095;
+  }
+  .triangle2{
+    position: absolute;
+    top:94.5%;
+    left:41%;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+    border-right: 3px solid #56b6ce;
+    border-bottom: 3px solid #56b6ce;
+  }
+  header{
+    margin-top: 10px;
+    color: #56b6ce;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 25px;
+  }
+  header .label{
+    float: left;
+  }
+  header .shirtprice{
+    float:right;
+    font-weight: bold;
+  }
