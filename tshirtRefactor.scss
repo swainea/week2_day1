@@ -1,0 +1,16 @@
+
+$themeLightColor: #56b6ce;
+$desktopColumnWidth: 20%;
+
+
+section{
+  position: relative;
+  float: left;
+  width: $desktopColumnWidth;
+  box-sizing: border-box;
+  margin-right: 4%;
+}
+
+article{
+  border: 3px solid $themeLightColor;
+}
